@@ -1,0 +1,57 @@
+.main_text{
+    width: 100%;
+    max-width: 71.25rem;
+    margin: 0 auto;
+    padding: 8.5rem 2rem 4rem;
+    text-align: center;
+    }
+
+    .main_text_01{
+        font-weight: 900;
+        font-size: 4rem;
+        color: var(--color-point);
+    }
+    .line_01{
+        width: 40%;
+        height: 0;
+        margin: 1.5rem auto;
+        border: none;
+        border-top: 0.2rem solid var(--color-text);
+        opacity: 1;
+    }
+
+    .main_text_02{
+        color: var(--color-text);
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .main_text_st{
+        color: var(--color-text);
+        font-size: 1.8rem;
+    }
+
+    .main_text_03{
+        display: inline-block;
+        color: var(--color-point);
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+        border-radius: 40px;
+        border: none;
+        background-color: var(--color-sub);
+        transition: all 1000ms;
+    }
+
+
+
+
+
+
+    .main_text_03:hover{
+        background-color: transparent;
+        color: var(--color-text);
+        outline: 1px solid var(--color-point);
+        transition: all 1000ms;
+    }

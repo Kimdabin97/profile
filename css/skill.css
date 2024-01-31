@@ -1,0 +1,119 @@
+#skills{
+    background-color: var(--color-main);
+    color: var(--color-text);
+    width: 100%;
+    
+}  
+
+.skills_title{
+    font-size: 3rem;
+    color: var(--color-point);
+}
+
+.content_all{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.skill_content{
+    display: grid;
+    grid-template-areas:
+    "a a"
+    "b c"
+    ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    width: 100%;
+    height: 50rem;
+    border-radius: 60px;
+}   
+
+    .skill_coding{
+        grid-area: a;
+        padding: 1rem;
+        background-color: var(--color-sub);
+    }
+.skill_coding ul {
+    padding: 0;
+}
+
+.skill_tools ul{
+    padding: 0;
+}
+.skill_etc ul{
+    padding: 0;
+}
+
+    .skill_tools{
+        grid-area: b;
+        padding: 1rem;
+        background-color: var(--color-sub);
+        filter: brightness(110%);
+        align-items: center;
+        justify-content: center;
+        }
+
+    .skill_etc{
+        grid-area: c; 
+        padding: 1rem;
+        background-color: var(--color-sub);
+        filter: brightness(120%);
+    }
+
+    .skill_bar{
+        display: flex;
+        flex-flow: column nowrap;
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+
+    .bar_text{
+        margin-top: 30px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        font-size: 1.3rem;
+    }
+
+    .bar_bg{
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+
+    .bar_value{
+        height: 3px;
+        background-color: var(--color-point);
+    }
+
+    .abc{
+        width: 100%;
+        height: 50rem;
+    }
+
+    .skill_img{
+       width: 100%;
+       height: 50rem;
+       border-radius: 40px;
+    }
+
+    .skill_title{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        margin: 1.15rem 0;
+    }
+
+    .bar_text_02{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+    }

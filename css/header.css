@@ -1,0 +1,95 @@
+:root{
+    --color-white: #efe3cc;
+    --color-black: #081738;
+    --color-blue: #c1a477;
+    --color-orange: #3e5b88;
+
+    --color-main: var(--color-white);
+    --color-text: var(--color-black);
+    --color-sub: var(--color-blue);
+    --color-point: var(--color-orange);
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Black Han Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 10pt;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+
+.background_wrap{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: var(--color-main);
+    background-size: cover;
+    z-index: 1;
+    height: auto;
+}
+
+/* header 시작 */
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 10;
+    background: transparent;
+}
+
+
+    .header_title{
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--color-text);
+        background: transparent;
+        gap: 8px;
+        transition: all 1s;
+    }
+
+    .header_menu{
+        display: flex;
+        justify-content: flex-end;
+        gap: 4px;
+    }
+
+    .header_menu_item{
+        display: block;
+        padding: 8px 16px;
+        font-size: 1.5rem;
+        color: var(--color-text);
+        transition: all 1s;
+    }
+
+    .header_menu_item:hover{
+        color: var(--color-point);
+    }
+    
+    .hamburger{
+        display: none;
+    }
+    
+
+  
